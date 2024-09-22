@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bassma Salimane</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a3faa085b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar__container">
+        <div class="social">
+          <a
+            href="https://github.com/BassmaSali"
+            class="social_links"
+            target="_blank"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.hackerrank.com/profile/bsalimane"
+            class="social_links"
+            target="_blank"
+          >
+            <i class="fa-brands fa-hackerrank"></i>
+          </a>
+        </div>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#" class="navbar__links" id="homeLink">Home</a>
+          </li>
+          <!-- <li class="navbar__item">
+            <a href="#skills" class="navbar__links" id="skills-page">Skills</a>
+          </li> -->
+          <li class="navbar__item">
+            <a href="#projects" class="navbar__links" id="cert-page"
+              >Projects</a
+            >
+          </li>
+          <!-- <li class="navbar__item"></li>
+                <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
+                </li> -->
+          <li class="navbar__btn">
+            <a href="#contact">
+              <a href="mailto: bsalimane@gmail.com"
+                ><button class="button" id="contact-page">
+                  Contact &#x1F44B;
+                </button></a
+              >
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Hey,</h1>
+        <h1 class="hero__heading2">I'm <span>Bassma</span></h1>
+        <h2 class="hero__description">
+          &#x1F393; BSc Computer Science Student
+        </h2>
+        <h2 class="hero__description">
+          at<a href="https://www.city.ac.uk/about" target="”_blank”">
+            City, University of London
+          </a>
+        </h2>
+        <a href="mailto: bsalimane@gmail.com"
+          ><button class="email__btn">Get in touch &rarr;</button></a
+        >
+      </div>
+      <div class="linkedin__container bottom-right" id="linkedinContainer">
+        <div class="linkedin-content">
+          <div class="linkedin-text-container">
+            <div class="linkedin-text">
+              <p>
+                Linked<i
+                  class="fa-brands fa-linkedin"
+                  style="color: #465fa4"
+                ></i
+                ><span>&rarr;</span>
+              </p>
+            </div>
+          </div>
+          <a
+            href="https://www.linkedin.com/in/bassma-salimane-203089156"
+            target="_blank"
+          >
+            <img
+              src="images/Screenshot_2022-11-11_at_02.24.25-removebg-preview.png"
+              class="linkedinlogo"
+              alt="LinkedIn"
+            />
+          </a>
+        </div>
+      </div>
+
+      <!-- Skills Section
+      <div class="skills" id="skills">
+        <div class="skills_inner">
+        <h1>Skills</h1>
+        <div class="skills__main">
+          <div class="skills__bar">
+            <div class="info">
+              <p>HTML <i class="fa-brands fa-html5"></i></p>
+              <p class="percent">90%</p>
+            </div>
+            <div class="bar">
+              <span class="html"></span>
+            </div>
+          </div>
+          <div class="skills__bar">
+            <div class="info">
+              <p>CSS <i class="fa-brands fa-css3-alt"></i></p>
+              <p class="percent">80%</p>
+            </div>
+            <div class="bar">
+              <span class="css"></span>
+            </div>
+          </div>
+          <div class="skills__bar">
+            <div class="info">
+              <p>Javascript <i class="fa-brands fa-js"></i></p>
+              <p class="percent">40%</p>
+            </div>
+            <div class="bar">
+              <span class="javascript"></span>
+            </div>
+          </div>
+          <div class="skills__bar">
+            <div class="info">
+              <p>Python <i class="fa-brands fa-python"></i></p>
+              <p class="percent">70%</p>
+            </div>
+            <div class="bar">
+              <span class="python"></span>
+            </div>
+          </div>
+          <div class="skills__bar">
+            <div class="info">
+              <p>Java <i class="fa-brands fa-java"></i></p>
+              <p class="percent">40%</p>
+            </div>
+            <div class="bar">
+              <span class="java"></span>
+            </div>
+          </div>
+          <div class="skills__bar">
+            <div class="info">
+              <p>SQL <i class="fa-solid fa-code"></i></p>
+              <p class="percent">90%</p>
+            </div>
+            <div class="bar">
+              <span class="sql"></span>
+            </div>
+          </div>
+          <div class="skills__bar">
+            <div class="info">
+              <p>C++ <i class="fa-solid fa-c"></i></p>
+              <p class="percent">30%</p>
+            </div>
+            <div class="bar">
+              <span class="c"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Projects -->
+    <div class="projects" id="projects">
+      <div class="projects__heading">
+        <h1>Projects</h1>
+      </div>
+      <div class="projects__container">
+        <a class="project__card">
+          <i class="fa-solid fa-person-running"></i>
+          <h4>Police Run</h4>
+          <p><b>Languages: Java</b></p>
+          <button>Open Project</button>
+        </a>
+        <a class="project__card">
+          <i class="fa-solid fa-puzzle-piece"></i>
+          <h4>Minigames</h4>
+          <p><b>Languages: </b></p>
+          <button>Open Project</button>
+        </a>
+        <a class="project__card">
+          <i class="fa-solid fa-camera"></i>
+          <h4>Photography Portfolio</h4>
+          <p><b>Languages: </b></p>
+          <button>Open Project</button>
+        </a>
+        <a class="project__card">
+          <i class="fa-solid fa-lock"></i>
+          <h4>Project 3</h4>
+          <p><b>Languages: </b></p>
+          <button>Open Project</button>
+        </a>
+        <a class="project__card">
+          <i class="fa-brands fa-google"></i>
+          <h4>Project 4</h4>
+          <p><b>Languages: </b></p>
+          <button>Open Project</button>
+        </a>
+        <a
+          class="project__card"
+          href="https://portswigger.net/web-security/certification"
+          target="_blank"
+        >
+          <i class="fa-solid fa-window-restore"></i>
+          <h4>Project 5</h4>
+          <p><b>Languages: </b></p>
+          <button>Open Project</button>
+        </a>
+      </div>
+    </div>
+
+    <!-- Skills
+   <div class="skills" id="skills">
+    <div class="skills__heading">
+        <h1>My Projects</h1>
+    </div>
+    <div class="skills__container">
+        <a class="skill__card" href="https://www.comptia.org/certifications/network" target="_blank">
+            <i class="fa-solid fa-network-wired"></i>
+            <h4>CompTIA Network+</h4>
+            <p><b>Date Issued:</b> 13/05/2020</p>
+            <button>View Certificate</button> 
+        </a>
+        <a class="skill__card" href="https://www.comptia.org/certifications/security" target="_blank">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h4>CompTIA Security+</h4>
+            <p><b>Date Issued:</b> 13/05/2020</p>
+            <button>View certificate</button>
+        </a>
+        <a class="skill__card" href="https://www.comptia.org/certifications/a" target="_blank">
+            <i class="fa-solid fa-computer"></i>
+            <h4>CompTIA A+</h4>
+            <p><b>Date Issued:</b> 13/05/2020</p>
+            <button>View Certificate</button>
+        </a>
+        <a class="skill__card" href="https://www.isc2.org/certifications/cissp" target="_blank">
+            <i class="fa-solid fa-lock"></i>
+            <h4>CISSP</h4>
+            <p><b>Date Issued:</b> 13/05/2020</p>
+            <button>View Certificate</button>
+        </a>
+        <a class="skill__card" href="https://www.coursera.org/google-certificates/cybersecurity-certificate" target="_blank">
+            <i class="fa-brands fa-google"></i>
+            <h4>Google CyberSecurity</h4>
+            <p><b>Date Issued:</b> 13/05/2020</p>
+            <button>View Certificate</button>
+        </a>
+        <a class="skill__card" href="https://portswigger.net/web-security/certification" target="_blank">
+            <i class="fa-solid fa-window-restore"></i>
+            <h4>Portswigger Burp Suite</h4>
+            <p><b>Date Issued:</b> 13/05/2020</p>
+            <button>View Certificate</button>
+        </a>
+    </div>
+   </div> -->
+
+    <!-- Projects Section
+    <div class="projects" id="projects">
+        <h1>My Projects</h1>
+        <div class="projects__wrapper">
+            <div class="projects__card">
+                <h2>Portfolio Website  &#x1F5A5;</h2>
+                <p>Short description of what my project is about</p>
+                <div class="projects__btn">
+                    <button>Open Project</button>
+                </div>
+            </div>
+            <div class="projects__card">
+                    <h2>Police Run  &#x1F46E;</h2>
+                    <p>Short description of what my project is about</p>
+                    <div class="projects__btn">
+                        <button>Open Project</button>
+                    </div>
+            </div>
+            <div class="projects__card">
+                <h2>Student Workflow  &#x1F4D8;</h2>
+                <p>Short description of what my project is about</p>
+                <div class="projects__btn">
+                    <button>Open Project</button>
+                </div>
+            </div>
+            <div class="projects__card">
+                <h2>SQL Injection  &#x1F489;</h2>
+                <p>Short description of what my project is about</p>
+                <div class="projects__btn">
+                    <button>Open Project</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <script src="app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </body>
+</html>
